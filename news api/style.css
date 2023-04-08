@@ -1,0 +1,55 @@
+.main{
+    background-color: black;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: black;
+    margin-left: 1rem;
+    
+    
+}
+img{
+    width: 22rem;
+    height: 13rem;
+}
+
+
+.card{
+    width: 23rem;
+    height:31rem;
+    box-shadow: black 0px 3px 8px;
+    text-align: justify;
+     margin: 1rem;
+     background-color:white;
+      border-radius: 1rem;
+      padding: 1rem;   
+     
+}
+
+.cardd{
+
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+    cursor: pointer;
+    
+}
+
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+.navbar{
+    background-color:black;
+    padding-bottom: 0rem;
+    
+}
+.cardd h1{
+    margin-top: -1rem;
+}
